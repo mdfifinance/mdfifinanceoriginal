@@ -15,7 +15,7 @@
     <style>
         .page-hero {
             /* Lighter gradient at top to show faces, darker at bottom for text */
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.85)), url('assets/kerala-hero.png') no-repeat top center/cover;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.85)), url('assets/microfinance_hero_desktop.png') no-repeat top center/cover;
             padding: 220px 0 120px;
             color: #fff;
             text-align: center;
@@ -24,6 +24,9 @@
 
         @media (max-width: 768px) {
             .page-hero {
+                /* Use the happy/narrower image for mobile */
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.85)), url('assets/microfinance_hero_happy.png');
+
                 /* Push background down slightly on mobile so navbar doesn't cover faces */
                 /* 'center 120px' means horizontal center, vertical 120px from top */
                 background-position: center 80px;
@@ -281,7 +284,7 @@
             </div>
 
             <div class="poster-container">
-                <img src="assets/kerala-poster.png" alt="Microfinance Loan Details" class="poster-img">
+                <img src="assets/microfinance_poster_clean.png" alt="Microfinance Loan Details" class="poster-img">
             </div>
 
             <div class="text-center">
@@ -322,8 +325,8 @@
         <div class="container footer-content">
             <p>&copy; 2026 MDFI Finance Private Limited. All rights reserved.</p>
             <div class="footer-links">
-                <a href="#">Terms & Conditions</a>
-                <a href="#">Privacy Policy</a>
+                <a href="terms-and-conditions.html">Terms & Conditions</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
             </div>
         </div>
     </footer>

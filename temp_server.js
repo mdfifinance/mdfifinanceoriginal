@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const port = 8006;
+const port = 8011;
 // Use absolute path for the directory to serve, or current working directory
 const baseDir = process.cwd();
 

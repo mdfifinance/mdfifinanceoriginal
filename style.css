@@ -653,6 +653,19 @@ ul {
     color: var(--accent);
 }
 
+.contact-action-link {
+    display: block;
+    margin-top: 5px;
+    color: var(--accent);
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+
+.contact-action-link:hover {
+    color: #b71c1c;
+}
+
 /* Footer */
 footer {
     padding: 30px 0;

@@ -118,7 +118,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 0;
     background: #ffffff;
     /* Solid white to match logo background */
     /* backdrop-filter: blur(10px); Removed for solid match */
@@ -179,7 +179,7 @@ ul {
 
 /* Hero */
 .hero {
-    padding-top: 120px;
+    padding-top: 180px;
     padding-bottom: 50px;
     min-height: 100vh;
     display: flex;
